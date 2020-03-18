@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { View, Text, Button } from "react-native";
+import { View, Text } from "react-native";
 import { movieApi } from "../api";
 
 export default () => {
