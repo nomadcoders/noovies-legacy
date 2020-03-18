@@ -12,8 +12,9 @@ const getHeaderName = route =>
 
 export default ({ navigation, route }) => {
   useLayoutEffect(() => {
+    const name = getHeaderName(route);
     navigation.setOptions({
-      title: getHeaderName(route)
+      title: name
     });
   }, [route]);
   return (
