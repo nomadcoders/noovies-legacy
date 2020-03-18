@@ -11,19 +11,19 @@ const makeRequest = (path, params) =>
   });
 
 export const movieApi = {
-  nowPlaying: () => makeRequest(),
-  popular: () => makeRequest(),
-  upcoming: () => makeRequest(),
-  search: word => makeRequest(),
-  movie: id => makeRequest(),
-  discover: () => makeRequest()
+  nowPlaying: () => makeRequest("/movie/now_playing"),
+  popular: () => makeRequest("/movie/popular"),
+  upcoming: () => makeRequest("/movie/upcoming", { region: "kr" }),
+  search: query => makeRequest("/search/movie", { query }),
+  movie: id => makeRequest(`/movie/${id}`),
+  discover: () => makeRequest("/discover/movie")
 };
 
 export const tvApi = {
-  today: () => makeRequest(),
-  thisWeek: () => makeRequest(),
-  topRated: () => makeRequest(),
-  popular: () => makeRequest(),
-  search: word => makeRequest(),
-  show: id => makeRequest()
+  today: () => makeRequest("/tv/airing_today"),
+  thisWeek: () => makeRequest("/tv/on_the_air"),
+  topRated: () => makeRequest("/tv/top_rated"),
+  popular: () => makeRequest("/tv/popular"),
+  search: query => makeRequest("/search/tv", { query }),
+  show: id => makeRequest(`/tv/${id}`)
 };
