@@ -32,6 +32,7 @@ export default ({ loading, nowPlaying }) => (
               overview={movie.overview}
               votes={movie.vote_average}
               backgroundImage={movie.backdrop_path}
+              poster={movie.poster_path}
             />
           ))}
         </Swiper>
