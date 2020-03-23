@@ -17,7 +17,10 @@ export default ({
       backgroundImage,
       poster,
       overview,
-      votes
+      votes,
+      videos: {
+        results: []
+      }
     }
   });
   const getData = async () => {
