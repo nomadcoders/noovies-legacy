@@ -1,5 +1,5 @@
 import React from "react";
-import { PanResponder, Dimensions } from "react-native";
+import { PanResponder, Dimensions, Animated } from "react-native";
 import styled from "styled-components/native";
 import { apiImage } from "../../api";
 
@@ -11,32 +11,40 @@ const Container = styled.View`
   align-items: center;
 `;
 
-const Card = styled.View`
-  top: 80px;
-  height: ${HEIGHT / 1.5}px;
-  width: 90%;
-  position: absolute;
-`;
-
 const Poster = styled.Image`
   border-radius: 20px;
   width: 100%;
   height: 100%;
 `;
 
+const styles = {
+  top: 80,
+  height: HEIGHT / 1.5,
+  width: "90%",
+  position: "absolute"
+};
+
 export default ({ results }) => {
+  const position = new Animated.ValueXY();
   const panResponder = PanResponder.create({
     onStartShouldSetPanResponder: () => true,
-    onPanResponderMove: (evt, { dx }) => {
-      console.log(dx);
+    onPanResponderMove: (evt, { dx, dy }) => {
+      position.setValue({ x: dx, y: dy });
     }
   });
   return (
     <Container>
       {results.reverse().map(result => (
-        <Card key={result.id} {...panResponder.panHandlers}>
+        <Animated.View
+          style={{
+            ...styles,
+            transform: [...position.getTranslateTransform()]
+          }}
+          key={result.id}
+          {...panResponder.panHandlers}
+        >
           <Poster source={{ uri: apiImage(result.poster_path) }} />
-        </Card>
+        </Animated.View>
       ))}
     </Container>
   );
