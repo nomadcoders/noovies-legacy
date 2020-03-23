@@ -6,6 +6,8 @@ import { Dimensions, ActivityIndicator } from "react-native";
 import Poster from "../../components/Poster";
 import Votes from "../../components/Votes";
 import { formatDate } from "../../utils";
+import { TouchableOpacity } from "react-native-gesture-handler";
+import Link from "../../components/Detail/Link";
 
 const BG = styled.Image`
   width: 100%;
@@ -57,7 +59,7 @@ const DataValue = styled.Text`
   font-weight: 500;
 `;
 
-export default ({ result, loading }) => (
+export default ({ openBrowser, result, loading }) => (
   <ScrollContainer
     loading={false}
     contentContainerStyle={{ paddingBottom: 80 }}
@@ -132,6 +134,15 @@ export default ({ result, loading }) => (
               {result.number_of_seasons} / {result.number_of_episodes}
             </DataValue>
           </>
+        )}
+        {result.imdb_id && (
+          <Link
+            text={"IMDB Page"}
+            icon={"imdb"}
+            onPress={() =>
+              openBrowser(`https://www.imdb.com/title/${result.imdb_id}`)
+            }
+          />
         )}
       </Data>
     </>
