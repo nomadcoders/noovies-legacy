@@ -1,11 +1,14 @@
 {
   "main": "node_modules/expo/AppEntry.js",
+  "homepage": "https://noovies.netlify.com/",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "deploy": "netlify deploy --prod --dir web-build",
+    "predeploy": "expo build:web"
   },
   "dependencies": {
     "@expo/vector-icons": "^10.0.0",
@@ -18,6 +21,7 @@
     "expo-asset": "~8.0.0",
     "expo-font": "~8.0.0",
     "expo-web-browser": "~8.0.0",
+    "gh-pages": "^2.2.0",
     "prop-types": "^15.7.2",
     "react": "~16.9.0",
     "react-dom": "~16.9.0",

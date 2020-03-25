@@ -7,6 +7,8 @@ import { Asset } from "expo-asset";
 import { Ionicons, FontAwesome } from "@expo/vector-icons";
 import Stack from "./navigation/Stack";
 
+require("@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Ionicons.ttf");
+
 const cacheImages = images =>
   images.map(image => {
     if (typeof image === "string") {
@@ -16,8 +18,7 @@ const cacheImages = images =>
     }
   });
 
-const cacheFonts = fonts =>
-  fonts.map(font => [Font.loadAsync(font), Font.loadAsync(font)]);
+const cacheFonts = fonts => fonts.map(font => Font.loadAsync(font));
 
 export default function App() {
   const [isReady, setIsReady] = useState(false);
