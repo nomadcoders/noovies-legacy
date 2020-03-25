@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/noovies/register-service-worker.js"
   },
   {
-    "revision": "26433d36a997845bfdcf",
-    "url": "/noovies/static/js/2.34fb7ee9.chunk.js"
+    "revision": "229cc898e76c0e1d896d",
+    "url": "/noovies/static/js/2.b75d4b29.chunk.js"
   },
   {
     "revision": "d0c694b562b2208635f250762cd7fc79",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/noovies/./fonts/Ionicons.ttf"
   },
   {
-    "revision": "8216a39412a5678c2e4af96be5bdec88",
+    "revision": "c779e0f5fd6154218bcc83dc8f34f1c4",
     "url": "/noovies/index.html"
   },
   {
@@ -60,16 +60,16 @@ self.__precacheManifest = [
     "url": "/noovies/./fonts/SimpleLineIcons.ttf"
   },
   {
-    "revision": "48c7ed4e7da9792af288a60d7242d615",
-    "url": "/noovies/expo-service-worker.js"
+    "revision": "bc8cf2b8153e2e6ede614031ab6e4925",
+    "url": "/noovies/apple/splash/icon_750x1334.png"
   },
   {
     "revision": "7a7bc7ead25db795e58b336f04d2624c",
     "url": "/noovies/favicon.ico"
   },
   {
-    "revision": "bc8cf2b8153e2e6ede614031ab6e4925",
-    "url": "/noovies/apple/splash/icon_750x1334.png"
+    "revision": "48c7ed4e7da9792af288a60d7242d615",
+    "url": "/noovies/expo-service-worker.js"
   },
   {
     "revision": "b9a61ffa162f33a476549520386682a6",

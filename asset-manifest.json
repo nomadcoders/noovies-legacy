@@ -4,8 +4,8 @@
     "app.js.map": "/noovies/static/js/app.206f56fc.chunk.js.map",
     "runtime~app.js": "/noovies/static/js/runtime~app.2fa73960.js",
     "runtime~app.js.map": "/noovies/static/js/runtime~app.2fa73960.js.map",
-    "static/js/2.34fb7ee9.chunk.js": "/noovies/static/js/2.34fb7ee9.chunk.js",
-    "static/js/2.34fb7ee9.chunk.js.map": "/noovies/static/js/2.34fb7ee9.chunk.js.map",
+    "static/js/2.b75d4b29.chunk.js": "/noovies/static/js/2.b75d4b29.chunk.js",
+    "static/js/2.b75d4b29.chunk.js.map": "/noovies/static/js/2.b75d4b29.chunk.js.map",
     "fonts/AntDesign.ttf": "/noovies/./fonts/AntDesign.ttf",
     "fonts/Entypo.ttf": "/noovies/./fonts/Entypo.ttf",
     "fonts/Feather.ttf": "/noovies/./fonts/Feather.ttf",
@@ -35,13 +35,13 @@
     "favicon.ico": "/noovies/favicon.ico",
     "index.html": "/noovies/index.html",
     "manifest.json": "/noovies/manifest.json",
-    "precache-manifest.99f4041691f153e62c37084a14484315.js": "/noovies/precache-manifest.99f4041691f153e62c37084a14484315.js",
+    "precache-manifest.5fea353a864bf4a80900a1a929c65bf0.js": "/noovies/precache-manifest.5fea353a864bf4a80900a1a929c65bf0.js",
     "serve.json": "/noovies/serve.json",
     "static/media/splash.png": "/noovies/static/media/splash.a8e4ac9b.png"
   },
   "entrypoints": [
     "static/js/runtime~app.2fa73960.js",
-    "static/js/2.34fb7ee9.chunk.js",
+    "static/js/2.b75d4b29.chunk.js",
     "static/js/app.206f56fc.chunk.js"
   ]
 }
