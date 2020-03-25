@@ -1,5 +1,6 @@
 {
   "background_color": "#000000",
+  "description": "Universal React App (iOS, Android, Web) to discover movies and series.",
   "dir": "auto",
   "display": "standalone",
   "lang": "en",
@@ -19,80 +20,79 @@
   ],
   "short_name": "Noovies",
   "start_url": ".",
-  "theme_color": "#000000",
   "icons": [
     {
-      "src": "/noovies/apple/splash/icon_1125x2436.png",
+      "src": "/apple/splash/icon_1125x2436.png",
       "sizes": "1125x2436",
       "type": "image/png"
     },
     {
-      "src": "/noovies/apple/splash/icon_1136x640.png",
+      "src": "/apple/splash/icon_1136x640.png",
       "sizes": "1136x640",
       "type": "image/png"
     },
     {
-      "src": "/noovies/apple/splash/icon_1242x2208.png",
+      "src": "/apple/splash/icon_1242x2208.png",
       "sizes": "1242x2208",
       "type": "image/png"
     },
     {
-      "src": "/noovies/apple/splash/icon_1242x2688.png",
+      "src": "/apple/splash/icon_1242x2688.png",
       "sizes": "1242x2688",
       "type": "image/png"
     },
     {
-      "src": "/noovies/apple/splash/icon_1334x750.png",
+      "src": "/apple/splash/icon_1334x750.png",
       "sizes": "1334x750",
       "type": "image/png"
     },
     {
-      "src": "/noovies/apple/splash/icon_1792x828.png",
+      "src": "/apple/splash/icon_1792x828.png",
       "sizes": "1792x828",
       "type": "image/png"
     },
     {
-      "src": "/noovies/apple/icons/icon_180x180.png",
+      "src": "/apple/icons/icon_180x180.png",
       "sizes": "180x180",
       "type": "image/png"
     },
     {
-      "src": "/noovies/apple/icons/icon_192x192.png",
+      "src": "/apple/icons/icon_192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/noovies/apple/splash/icon_2208x1242.png",
+      "src": "/apple/splash/icon_2208x1242.png",
       "sizes": "2208x1242",
       "type": "image/png"
     },
     {
-      "src": "/noovies/apple/splash/icon_2436x1125.png",
+      "src": "/apple/splash/icon_2436x1125.png",
       "sizes": "2436x1125",
       "type": "image/png"
     },
     {
-      "src": "/noovies/apple/splash/icon_2688x1242.png",
+      "src": "/apple/splash/icon_2688x1242.png",
       "sizes": "2688x1242",
       "type": "image/png"
     },
     {
-      "src": "/noovies/apple/icons/icon_512x512.png",
+      "src": "/apple/icons/icon_512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "/noovies/apple/splash/icon_640x1136.png",
+      "src": "/apple/splash/icon_640x1136.png",
       "sizes": "640x1136",
       "type": "image/png"
     },
     {
-      "src": "/noovies/apple/splash/icon_750x1334.png",
+      "src": "/apple/splash/icon_750x1334.png",
       "sizes": "750x1334",
       "type": "image/png"
     },
     {
-      "src": "/noovies/apple/splash/icon_828x1792.png",
+      "src": "/apple/splash/icon_828x1792.png",
       "sizes": "828x1792",
       "type": "image/png"
     }
